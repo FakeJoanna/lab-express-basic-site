@@ -12,17 +12,16 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 #welcome {
     margin: 0;
-    font-size: 10rem;
+    font-size: 2rem;
 }
 
 #restText {
-    margin: 0;
-    font-size: 1.5rem;
+    font-size: 7rem;
 }
 
 #bottomHalf {

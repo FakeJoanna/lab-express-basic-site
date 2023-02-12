@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    background-color: ivory;
+}
+
+#topbar {
+    position: fixed;
+    height: 7vh;
+    width: 100%;
+    background-color: #e3dac9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 12px;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+#mainDiv {
+    height: 93vh;
+    display: flex;
+    justify-content: end;
+}
+
+#leftDiv {
+    position: fixed;
+    top: 7vh;
+    height: 100%;
+    width: 45%;
+}
+
+#oshiiDiv {
+    height: 75%;
+    width: 100%;
+}
+
+#oshiiImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 0 100px 0;
+}
+
+#bornDiv {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#bornDiv p {
+    margin: 0;
+    margin-bottom: 7%;
+}
+
+#date {
+    color: #2a2ba4;
+    font-size: 2rem;
+    font-style: italic;
+    margin-bottom: 10%;
+}
+
+#rightDiv {
+    height: 100%;
+    width: 55%;
+}
+
+.topbio {
+    margin: 10% 10% 0% 10%;
+    line-height: 2;
+    text-indent: 20px;
+}
+
+.bio {
+    margin: 0 10%;
+    line-height: 2;
+    text-indent: 20px;
+}
+
+.bottombio {
+    margin: 0 10% 5%;
+    line-height: 2;
+    text-indent: 20px;
+}
+
+.paragraphStart {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

@@ -13,8 +13,11 @@ app.use(express.static("views"));
 // home route:
 app.get('/home', (request, response, next) => response.sendFile(__dirname + '/views/home.html'));
 
-// aabout route:
+// about route:
 app.get('/about', (request, response, next) => response.sendFile(__dirname + '/views/about.html'));
+
+// works route
+app.get('/works', (request, response, next) => response.sendFile(__dirname + '/views/works.html'));
 
 // Server Started
 app.listen(3000, () => console.log('app is listening'));
